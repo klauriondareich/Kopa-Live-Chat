@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site": "web-kopa-live-chat",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
